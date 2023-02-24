@@ -1,0 +1,110 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('../../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container1 {
+  height: 100%;
+  align-items: center;
+  background-image: url('../../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.star_rating {
+  padding-top: 20vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.title{
+  text-align: center;
+  color: white;
+  font-family: 'Unna Light';
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text{
+  /* text-align: center;
+  margin-top: 20px; */
+  font-size: 24px;
+}
+.social {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  
+}
+.icon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.arrow {
+  width: 35px;
+  height: 35px;
+}
+.back {
+  margin-bottom: 5vh;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+.box {
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.activities {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  /* background-color:#aaa; */
+  float: left;
+  width: 50%;
+  /* border: solid; */
+  border-color: white;
+  /* padding: 10px; */
+  /* height: 300px; */
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.img {
+  width: 100%;
+}
+.text_block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left{
+  margin-bottom: 5vh;
+  margin-right: 120vw;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+.right{
+  margin-bottom: 5vh;
+  margin-right: 80vw;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}

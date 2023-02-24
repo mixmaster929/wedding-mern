@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  background-image: url('../../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contents{
+  padding-top: 20vh;
+  padding-left: 20vw;
+  padding-right: 5vw;
+}
+.boxs {
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: white;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
